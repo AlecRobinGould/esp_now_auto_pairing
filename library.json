@@ -1,0 +1,42 @@
+{
+  "name": "esp-now-auto-pairing",
+  "version": "1.0.0",
+  "description": "C++ library for automatic ESP-NOW pairing on ESP32 devices",
+  "keywords": [
+    "esp32",
+    "esp-now",
+    "pairing",
+    "wireless",
+    "networking",
+    "auto-pairing",
+    "embedded"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alecrobingould/esp-now-auto-pairing.git"
+  },
+  "authors": [
+    {
+      "name": "Alec",
+      "email": "argould2277@gmail.com",
+      "url": "https://github.com/alecrobingould"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alecrobingould/esp-now-auto-pairing",
+  "frameworks": "espidf",
+  "platforms": [
+    "espressif32"
+  ],
+  "build": {
+    "srcFilter": [
+      "+<src/>",
+      "+<include/>"
+    ]
+  },
+  "export": {
+    "include": [
+      "include/"
+    ]
+  }
+}
