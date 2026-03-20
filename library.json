@@ -1,5 +1,5 @@
 {
-  "name": "esp-now-auto-pairing",
+  "name": "esp_now_auto_pairing",
   "version": "1.0.0",
   "description": "Automatic ESP-NOW pairing library for ESP32. Handles device discovery, pairing negotiation, and NVS persistence.",
   "keywords": [
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlecRobinGould/esp-now-auto-pairing-lib.git"
+    "url": "https://github.com/AlecRobinGould/esp_now_auto_pairing-lib.git"
   },
   "authors": [
     {
@@ -25,7 +25,7 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/AlecRobinGould/esp-now-auto-pairing-lib",
+  "homepage": "https://github.com/AlecRobinGould/esp_now_auto_pairing-lib",
   "frameworks": "espidf",
   "platforms": [
     "espressif32"
