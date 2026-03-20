@@ -90,6 +90,6 @@ partitions.bin
 components/*/managed_components/
 
 #extras
-examples/
+# examples/
 API_REFERENCE.md
 CONTRIBUTING.md
