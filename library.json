@@ -14,18 +14,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alecrobingould/esp-now-auto-pairing-lib.git"
+    "url": "https://github.com/AlecRobinGould/esp-now-auto-pairing-lib.git"
   },
   "authors": [
     {
       "name": "Alec",
       "email": "argould2277@gmail.com",
-      "url": "https://github.com/alecrobingould",
+      "url": "https://github.com/AlecRobinGould",
       "maintainer": true
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/alecrobingould/esp-now-auto-pairing-lib",
+  "homepage": "https://github.com/AlecRobinGould/esp-now-auto-pairing-lib",
   "frameworks": "espidf",
   "platforms": [
     "espressif32"

@@ -21,7 +21,7 @@ Add this library to your PlatformIO project:
 
 ```ini
 lib_deps =
-    https://github.com/alecrobingould/esp-now-auto-pairing-lib.git
+    https://github.com/AlecRobinGould/esp-now-auto-pairing.git
 ```
 
 ## Usage
