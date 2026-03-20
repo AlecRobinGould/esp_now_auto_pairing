@@ -2,6 +2,9 @@
 
 A professional C++ library for automatic ESP-NOW pairing on ESP32 devices, designed to work with all ESP32 variants without Arduino dependencies.
 
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/f57d68f4-200b-4f6b-91c8-d227503e8de8" />
+
+
 ## Features
 
 - **Generic ESP32 Support**: Works with ESP32, ESP32-S2, ESP32-S3, ESP32-C3, etc.
