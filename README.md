@@ -1,14 +1,14 @@
 # ESP-NOW Auto-Pairing Library
 
-A professional C++ library for automatic ESP-NOW pairing on ESP32 devices, designed to work with all ESP32 variants without Arduino dependencies.
+A C++ library for automatic ESP-NOW pairing on ESP32 devices, designed to work with all ESP32 variants without Arduino dependencies(I dont like them and vanilla C used in ESP IDF frightens me).
 
 ## Features
 
-- **Generic ESP32 Support**: Works with ESP32, ESP32-S2, ESP32-S3, ESP32-C3, etc.
-- **Multiple Connection Types**: Supports master-slave, broadcaster, and multi-device configurations
-- **Persistent Pairing**: Saves pairing data to NVS (Non-Volatile Storage) to avoid re-pairing
-- **Secure and Robust**: Implements secure pairing protocols and error handling
-- **Easy Integration**: Simple API for initialization, pairing check, and unpairing
+- **Generic ESP32 Support**: Works with ESP32, ESP32-S2, ESP32-S3, ESP32-C3 so far that I've tested. Feel free to experiment.
+- **Multiple Connection Types**: Supports master-slave, broadcaster, and multi-device configurations (not fully tested)
+- **Persistent Pairing**: Saves pairing data to NVS (Non-Volatile Storage) to avoid re-pairing. Can be unpaired and removed from NVS. Make sure your code does not clash with this when implementing.
+- **Secure and Robust (Not proven ;))**: Implements secure pairing protocols and error handling
+- **Easy Integration**: Simple API for initialization, pairing check, and unpairing. I would recommend using the pairing from a button press, such as one would with a bluetooth device.
 
 ## Requirements
 
@@ -69,7 +69,7 @@ The library uses ESP-IDF's NVS for storing pairing information. Ensure NVS is in
 
 - Pairing process uses secure key exchange
 - All communications are encrypted using ESP-NOW's built-in security
-- Pairing data is stored securely in NVS
+- Pairing data is stored securely in NVS - this thing from the ESP IDF: (https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32c3/api-reference/storage/nvs_flash.html)
 
 ## Contributing
 
