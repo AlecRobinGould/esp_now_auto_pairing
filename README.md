@@ -4,6 +4,9 @@ A C++ library for automatic ESP-NOW pairing on ESP32 devices, designed to work w
 
 <img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/f57d68f4-200b-4f6b-91c8-d227503e8de8" />
 
+#Prelim test board
+<img width="654" height="628" alt="image" src="https://github.com/user-attachments/assets/42b962d5-8a8c-4722-8d13-9713fe03b25a" />
+
 
 ## Features
 
