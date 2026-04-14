@@ -4,9 +4,21 @@ A C++ library for automatic ESP-NOW pairing on ESP32 devices, designed to work w
 
 <img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/f57d68f4-200b-4f6b-91c8-d227503e8de8" />
 
-#Prelim test board
+# Prelim test board
 
 <img width="654" height="628" alt="image" src="https://github.com/user-attachments/assets/42b962d5-8a8c-4722-8d13-9713fe03b25a" />
+
+To do:
+ - add test pads
+ - fix mounting hole placement and clearance
+ - add SPOs
+ - add IMU (BMX055)
+ - add TVS diodes
+ - fix USB diff pair routing
+ - fix ground plane
+ - optimise component placement and component size reduction
+ - replace ESP with no antenna variant, for self made antenna
+ - TBC
 
 
 ## Features
